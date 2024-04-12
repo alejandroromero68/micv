@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /*margin: 0% 20% 5% 20%; declaracion de margen en una linea (top left bottom rigth)*/
+    margin: 0;
+    padding-top: 60px;
+}
+
+header {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 25px;
+    color: antiquewhite;
+}
+
+main {
+    margin: 5% 20%;
+}
+
+nav {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 30px;
+    border-bottom: 1px steelblue solid;
+}
+
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: antiquewhite;
+}
+
+#habilidades ul,
+#experiencia ul,
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    /*aquí se define el redondeo de las esquinas del elemento*/
+    margin-right: 10px;
+}
+
+#experiencia ul li,
+#proyectos ul li {
+    margin-bottom: 10px;
+}
+
+#proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos ul li a:hover {
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
+
+.menu-fijo a:hover {
+    background-color: aqua;
+}
+
+#contacto form {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#contacto form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

@@ -110,3 +110,18 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.animacion-titulo {
+    opacity: 0;
+    animation: aparecer 1s ease-in-out;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
